@@ -47,4 +47,17 @@ dependencies {
 
     // Room RxJava
     compile "android.arch.persistence.room:rxjava2:1.0.0-alpha3"
+
+    // Retrofit http://square.github.io/retrofit/
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+
+    // https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson
+    compile group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.3.0'
+
+    // Rxjava retrofit adapter
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+
+    // Rxjava
+    compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
 }
